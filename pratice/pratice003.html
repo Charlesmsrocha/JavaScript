@@ -5,32 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="text/javascript" src="pratice003.js"></script>
 </head>
 <body>
-    <script>
-        var airlines = new Array();
-        airlines[0] = "Delta";
-        airlines[1] = "Us Airways";
-        airlines[2] = "American";
-        airlines[3] = "jetBlue";
-        airlines[4] = "Vingin America";
-        airlines[5] = "United";
-        airlines[6] = "Air Canada";
-        airlines[7] = "Southwest";
-        airlines[8] = "British Airways";
-
-        function output(){
-            var output = "The position of southwest is: " + airlines.indexOf("Southwest");
-            document.getElementById('output').innerHTML = output;
-            //airlines.sort();
-            airlines.reverse();
-            //airlines.push("AeroMexico");
-            airlines.pop();
-            for(var i=0; i< airlines.length; i++){
-                document.getElementById('output').innerHTML += "<br/>" + airlines[i];
-            }
-        }
-    </script>
     <p id="output"></p>
     <button onclick="output()">output</button>    
 </body>
