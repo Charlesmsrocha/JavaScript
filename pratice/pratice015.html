@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting JavaScript Numbers</title>
+    <script type="text/javascript">
+
+        var myNum1 = 123.4567890;
+
+        var myNum2D = myNum1.toFixed(2);
+        
+        document.writeln("This is the result of the toFixed method: " + myNum2D + "<BR>");
+
+        var myNum2 = 123.4567890;
+
+        document.writeln("This is the result of myNum2.toPrecision(): " + myNum2.toLocaleString() + "<BR>");
+        document.writeln("This is the result of myNum2.toPrecision(2): " + myNum2.toLocaleString(2) + "<BR>");
+        document.writeln("This is the result of myNum2.toPrecision(3): " + myNum2.toLocaleString(3) + "<BR>");
+
+        document.writeln("LocaleString: " + myNum2.toLocaleString() + "<BR>");
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
