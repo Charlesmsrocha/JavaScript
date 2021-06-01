@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Invoice>
+<Number>026687</Number>
+<Date>07/04/2013</Date>
+<Address Type="Shipping">
+    <Name>Fred Jones</Name>
+    <Company>EasyNomad Travel, Inc.</Company>
+    <Address>5500 Park Avenue</Address>
+    <City>New York</City>
+    <State>NY</State>
+    <Zip>44553</Zip>
+    <Country>USA</Country>
+</Address>
+<Item1>
+    <SKU>334535455</SKU>
+    <Description>Leather High-Back Office Chairs</Description>
+    <Amount>10</Amount>
+    <Cost>199.99</Cost>
+    <Subtotal>1999.99</Subtotal>
+</Item1>
+<Item2>
+    <SKU>445356743A</SKU>
+    <Description>Executive Office Desks</Description>
+    <Amount>10</Amount>
+    <Cost>299.99</Cost>
+    <Subtotal>2999.99</Subtotal>
+</Item2>
+<TotalBeforeTax>4999.98</TotalBeforeTax>
+<Tax>499.99</Tax>
+<Total>5499.97</Total>
+</Invoice>
